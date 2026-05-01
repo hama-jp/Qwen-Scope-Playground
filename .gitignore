@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env (uv self-ignores via .venv/.gitignore, listed for clarity)
+.venv/
+
+# Node / SvelteKit
+node_modules/
+.svelte-kit/
+build/
+dist/
+.vite/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Claude Code per-user state
+.claude/
+
+# Large local artifacts
+*.pt
+*.safetensors
+*.bin
+
+# v0.2 mining artifacts (corpus.db, notes.db) — local only
+backend/data/
+

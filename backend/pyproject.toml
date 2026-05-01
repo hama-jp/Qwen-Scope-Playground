@@ -1,0 +1,18 @@
+[project]
+name = "qwen-scope-backend"
+version = "0.1.0"
+description = "Qwen-Scope Web Playground v0.1 backend"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "sse-starlette>=2.1",
+    "pydantic>=2.7",
+    "torch>=2.6",
+    "transformers>=4.45",
+    "huggingface_hub>=0.24",
+    "datasets>=2.20",
+]
+
+[tool.uv]
+managed = false
